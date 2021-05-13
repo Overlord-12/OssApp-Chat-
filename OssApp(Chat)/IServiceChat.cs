@@ -14,16 +14,16 @@ namespace OssApp_Chat_
         [OperationContract]
         void DoWork();
         [OperationContract]
-        int Connetct();
+        int Connetct(string str);
         [OperationContract]
         void Dissconect(int id);
         [OperationContract(IsOneWay = true)]
-        void SendMessage(string str);
+        void SendMessage(string strn,int id);
     }
 
     public interface IServerChatCallBack
     {
-        [OperationContract]
+        [OperationContract(IsOneWay = true)]
         void MsgCallBack(string str);
 
     }

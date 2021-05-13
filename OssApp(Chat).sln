@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OssApp(Chat)", "OssApp(Chat)\OssApp(Chat).csproj", "{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHost", "ChatHost\ChatHost.csproj", "{E4A08571-C4E9-40E2-A79C-6815DC26FD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{4FCF48DF-BD61-47C4-921A-248303479CF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A08571-C4E9-40E2-A79C-6815DC26FD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A08571-C4E9-40E2-A79C-6815DC26FD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A08571-C4E9-40E2-A79C-6815DC26FD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A08571-C4E9-40E2-A79C-6815DC26FD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCF48DF-BD61-47C4-921A-248303479CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCF48DF-BD61-47C4-921A-248303479CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCF48DF-BD61-47C4-921A-248303479CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCF48DF-BD61-47C4-921A-248303479CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
