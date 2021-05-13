@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OssApp(Chat)", "OssApp(Chat)\OssApp(Chat).csproj", "{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE73C56-1D4E-4C8C-8CE8-06D7FB40256D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FFE3C34-CB69-413A-B67C-9EE2A23BFA16}
+	EndGlobalSection
+EndGlobal
